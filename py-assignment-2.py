@@ -25,8 +25,8 @@ def combine_sort(list1, list2):
     new_list.sort()
     return new_list
 
-# wanted to challenge myself - code tracks frequency of nums in tracker_dict
-#  and if num occurs more than once it is deleted from new_list
+"""wanted to challenge myself - code tracks frequency of nums in tracker_dict
+   and if num occurs more than once it is deleted from new_list"""
 def combine_sort2(list1, list2):
     tracker_dict = {}
     new_list = list1 + list2
