@@ -22,11 +22,11 @@ def combine_sort2(list1, list2):
     new_list.sort()
     
     for num in new_list:
-         tracker_dict[num] = tracker_dict.get(num, 0) + 1
+        tracker_dict[num] = tracker_dict.get(num, 0) + 1
     
     for index, num in enumerate(new_list):
         if tracker_dict[num] > 1:
-             del new_list[index]
+            del new_list[index]
     return new_list
 
 l_1 = [1,2,3,4,5,6]
