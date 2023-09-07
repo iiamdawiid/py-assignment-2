@@ -1,14 +1,3 @@
-#Function Exercise 
-def full_name(list1, list2):
-	name_list = [f"{word} {list2[index]}" for index, word in enumerate(list1)]
-	return name_list
-
-first_name = ['John', 'Evan', 'Jordan', 'Max']
-last_name = ['Smith', 'Smith', 'Williams', 'Bell']
-print(full_name(first_name, last_name))
-
-
-
 # Exercise 1 
 def lessthan10(num_list):
     final_list = [num for num in num_list if num < 10]
@@ -44,4 +33,3 @@ l_1 = [1,2,3,4,5,6]
 l_2 = [3,4,5,6,7,8,10]
 print(combine_sort(l_1, l_2))
 print(combine_sort2(l_1, l_2))
-
